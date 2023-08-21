@@ -1,9 +1,7 @@
-# Sports-Balls-Classification
-Certainly, a well-structured README file is essential for effectively presenting your machine learning project to others. Below is an example README file for a multi-class sports balls image classification project:
 
 # Multi-Class Sports Balls Image Classification
 
-![Project Preview](project_preview.png)
+
 
 ## Overview
 
