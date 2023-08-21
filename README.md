@@ -30,7 +30,7 @@ To set up and run the project, follow these steps:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/Multi-Class-Sports-Balls-Image-Classification.git
+   git clone https://github.com/asra020601/Multi-Class-Sports-Balls-Image-Classification.git
    cd Multi-Class-Sports-Balls-Image-Classification
    ```
 
@@ -41,11 +41,6 @@ To set up and run the project, follow these steps:
    source venv/bin/activate
    ```
 
-3. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
