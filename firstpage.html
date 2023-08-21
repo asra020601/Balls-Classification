@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>My website</title>
+  </head>
+  <body>
+    <center>
+
+    <h1> Unravelling the Variety of Sports Balls in Multiclass
+Image Classification</h1>
+      <div class = 'para'>
+      <p> The Sports Balls - Multiclass Image Classification project represents a significant leap forward in the realm of artificial intelligence and computer vision. By leveraging state-of-the-art machine learning algorithms and cutting-edge image recognition techniques, our goal is to develop an accurate and efficient image classification system that excels in recognizing and categorizing diverse types of sports balls.
+
+The impact of this project extends far beyond the boundaries of traditional image classification. With its unparalleled potential for sports analytics, online retail, and educational applications, our system opens doors to an array of opportunities. The automated identification of sports balls in images streamlines processes and unlocks valuable insights for sports teams, coaches, and enthusiasts alike. Additionally, e-commerce platforms can benefit from enhanced product cataloging and improved user experience, while educators can enrich their instructional materials with captivating visual aids.
+
+Emphasizing precision, speed, and scalability, our image classification system promises to revolutionize how we interact with sports-related imagery. We envision a future where data-driven decisions are at the forefront, enabling targeted analysis, personalized recommendations, and heightened engagement across various industries. Together, let's embark on a journey to harness the potential of advanced technology and unlock the limitless possibilities it holds for the world of sports and beyond.</p></div>
+      <div class = 'para2'> <p>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p></div>div>
+<div class="container">
+      <form action="/predict" method="post" enctype="multipart/form-data">
+    <label for="mediaFile">Please submit the input image here.</label>
+    <br>
+    <input type="file" name="file">
+      <input type="submit" onclick="{{ url_for('predict') }}" > 
+  </form>
+      </div>
+
+ </center>
+<style> body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('static/image balls.jpg');
+  margin-left: 0;
+}
+h1{
+  font-size: 40px;
+  background-color: black;   /* Set the background color to black */
+  color: white;              /* Set the text color to white (optional) */
+  padding: 5px;             /* Add padding around the text to create the box effect */
+  display: inline-block;     /* Make the box fit the width of the text */
+}
+.para2{
+color: transparent;
+}
+.para{
+  font-size: 20px;
+  text-align:left;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: black;   /* Set the background color to black */
+  color: white;              /* Set the text color to white (optional) */
+  padding: 5px;             /* Add padding around the text to create the box effect */
+  display: inline-block;     /* Make the box fit the width of the text */
+    }
+.container {
+  text-align: center;
+  
+  padding: 100px;
+  height: 10vh;
+  background-color: black;   /* Set the background color to black */
+  color: white;              /* Set the text color to white (optional) */
+  padding: 10px;             /* Add padding around the text to create the box effect */
+  display: inline-block;     /* Make the box fit the width of the text */
+}
+</style>
+    </body>
