@@ -21,7 +21,7 @@ This project focuses on building a machine learning model to classify images of 
 
 ## Dataset
 
-The dataset used for this project consists of various sports balls images categorized into classes like soccer ball, basketball, tennis ball, and baseball. The dataset contains a total of XXXX images for training and XXXX images for testing.
+The dataset used for this project consists of various sports balls images categorized into classes like soccer ball, basketball, tennis ball, and baseball. The dataset contains a total of 7328 images for training and 1841 images for testing.
 
 ## Installation
 
